@@ -8,7 +8,7 @@ if (CMAKE_TOOLCHAIN_FILE)
       "root for library output, set this to change where Android libs are compiled to")
   endif()
 endif ()
-# 1Remove when CMake >= 2.8.4 is required
+# Remove when CMake >= 2.8.4 is required
 set (CMAKE_LEGACY_CYGWIN_WIN32 0)
 
 cmake_minimum_required (VERSION 3.12)
